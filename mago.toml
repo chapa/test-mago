@@ -1,0 +1,8 @@
+php-version = "8.5"
+
+[source]
+paths = ["tests/"]
+includes = ["vendor"]
+excludes = [
+    # "vendor/rector/rector", # uncomment to exclude Rector from analysis and make it successful
+]

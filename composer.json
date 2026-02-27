@@ -1,0 +1,19 @@
+{
+    "require": {
+        "php": "8.5.*"
+    },
+    "require-dev": {
+        "carthage-software/mago": "^1.13",
+        "phpunit/phpunit": "^13.0",
+        "rector/rector": "^2.3"
+    },
+    "scripts": {
+        "analyze": "mago analyze",
+        "test": "phpunit"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
